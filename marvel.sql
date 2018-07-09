@@ -85,3 +85,7 @@ SELECT * FROM movies;
 UPDATE movies SET show_time = '00:20'
   WHERE title = 'Guardians of the Galaxy';
 SELECT * FROM movies;
+
+delete from movies
+where id between 1 and 4;
+SELECT * FROM movies;
